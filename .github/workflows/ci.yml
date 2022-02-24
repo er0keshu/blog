@@ -8,7 +8,7 @@ on:
 jobs:
   bulid-and-deploy:
     runs-on: ubuntu-latest,
-    setps:
+    steps:
     - name: Checkout
       uses: actions/checkout@v2
     
